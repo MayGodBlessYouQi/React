@@ -1,0 +1,122 @@
+.am-wingblank {
+  margin: 0 !important;
+}
+
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 15px 0 9px 15px;
+}
+
+.not-square-grid .am-grid-icon {
+  width: 40px;
+  height: 60px;
+}
+
+.lyq_leftBody {
+  border-left: 2px solid #65c541;
+  color: black;
+  font-weight: 600;
+  padding-left: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+body {
+  background: #ffffff;
+}
+
+.lyq_dsq {
+  float: right;
+  height: 20px;
+}
+
+.ant-statistic-content {
+  font-size: 19px;
+}
+
+.lyq_list {
+  width: 375px;
+  height: 175px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lyq_list_li {
+  width: 82px;
+  height: 172px;
+}
+
+p {
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.lyq_list_li span {
+  font-size: 14px;
+}
+
+.lyq_content {
+  width: 375px;
+  height: 720px;
+}
+
+.lyq_con_li {
+  width: 375px;
+  height: 124px;
+  padding: 16px;
+}
+
+.book-cover-img {
+  float: left;
+  margin-right: .5rem;
+  box-shadow: 0 4px 8px rgba(51, 55, 61, 0.1);
+  font-size: 0;
+  border-radius: 0.125rem;
+}
+
+.book-cover {
+  width: 4.125rem;
+  height: 5.5rem;
+  float: left;
+  margin-right: .5rem;
+  box-shadow: 0 4px 8px rgba(51, 55, 61, 0.1);
+  font-size: 0;
+  border-radius: 0.125rem;
+}
+
+.book-cell {
+  overflow: hidden;
+}
+
+.book-span {
+  width: 269px;
+  height: 48px;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.book_div_span {
+  width: 269px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.book_i {
+  width: 22px;
+  height: 18px;
+  display: block;
+  background: url('../img/89.png') no-repeat;
+}

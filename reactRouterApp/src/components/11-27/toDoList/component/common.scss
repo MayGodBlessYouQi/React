@@ -1,0 +1,25 @@
+.plan_warp {
+  width: 60%;
+  margin: 20px auto;
+
+  .plan_title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 19px;
+  }
+
+  .plan_ul {
+    width: 56%;
+    height: auto;
+    margin: 20px auto;
+
+    input {
+      margin-right: 5px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+}

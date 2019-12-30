@@ -1,0 +1,14 @@
+$height: 200px;
+$width:$height - 100px;
+
+@function wds($data) {
+  @if ($data==200px) {
+    @return $data*4
+  }
+
+  @return $data*2
+}
+
+.home {
+  width: wds($height);
+}

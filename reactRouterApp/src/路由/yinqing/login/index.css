@@ -1,0 +1,14 @@
+.reg-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reg-wrap .active {
+  margin-left: 50px;
+}
+
+form {
+  width: 80% !important;
+  display: block !important;
+  margin: 0 auto !important;
+}

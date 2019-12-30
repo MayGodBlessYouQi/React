@@ -1,0 +1,8 @@
+.link {
+	color: #000;
+}
+
+.link_active,
+.link_active:hover {
+	color: red;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+</head>
+
+<body>
+  <button onclick="sendMessage()">发送</button>
+  <script>
+    var ws = new WebSocket("ws://192.168.39.10:8181");
+    ws.onopen = function (e) {
+      console.log("链接成功！");
+    };
+
+    function sendMessage() {
+      ws.send("前端发送的数据");
+    }
+    ws.onmessage = function (evt) {
+      console.log(evt.data);
+    };
+    ws.onclose = function (ev) {
+      alert("close");
+    };
+    ws.onerror = function (ev) {
+      console.log(ev);
+      alert("error");
+    };
+  </script>
+</body>
+
+</html>

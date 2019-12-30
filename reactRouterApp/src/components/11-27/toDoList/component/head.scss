@@ -1,0 +1,21 @@
+// css引入
+@import './common.scss';
+
+// 全局字体大小
+$fs:16px;
+
+// common
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// 头部内容
+.common_header {
+  height: 60px;
+  background: #323232;
+  color: #ffffff;
+  font-size: $fs * 1.5;
+}

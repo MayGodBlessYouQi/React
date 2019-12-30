@@ -1,0 +1,8 @@
+const SHUIGUO = 'SHUIGUO_YQ_001_11-26'
+// 增加一个
+const PUSHITEM = 'PUSH_INPUT_YQ_001'
+
+export {
+  SHUIGUO,
+  PUSHITEM
+}

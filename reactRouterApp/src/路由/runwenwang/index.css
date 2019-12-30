@@ -1,0 +1,49 @@
+.ant-layout-header {
+  background: #ffffff;
+  text-align: center;
+  height: 47px;
+  padding: 8px 0 2px 0;
+  line-height: 30px;
+}
+
+/* 轮播图宽高 */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 180px;
+  line-height: 180px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+
+.gutter-example .ant-row>div {
+  background: transparent;
+  border: 0;
+  background: #ffffff;
+}
+
+.gutter-box {
+  background: #ffffff;
+  padding: 10px 0 0 0;
+  width: 93px;
+  height: 75px;
+  text-align: center;
+}
+
+.gutter-img {
+  width: 46px;
+  height: 46px;
+  background: #30a6dc;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.ant-row {
+  height: 75px;
+  padding: 0;
+  padding-top: 10px;
+}
